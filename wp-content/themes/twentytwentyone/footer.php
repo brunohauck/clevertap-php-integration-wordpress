@@ -81,6 +81,12 @@
 
 <?php wp_footer(); ?>
 <script type="text/javascript">
+
+	clevertap.event.push("Main Page Visited", {
+		"Name": "Main Page Wordpress",
+		"Date": new Date()
+	});			
+
 	//plugin contact form 7
 	clevertap.onUserLogin.push({
 		"Site": {

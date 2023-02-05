@@ -33,11 +33,6 @@
 	         var s = document.getElementsByTagName('script')[0];
 	         s.parentNode.insertBefore(wzrk, s);
 	  })();
-	  //clevertap.setLogLevel(3);
-
-	  function testClevertap(){
-		console.log('ENTROU NO CLEVERTAP FUNCTION');
-	  }	
 	  
 	</script>
 
