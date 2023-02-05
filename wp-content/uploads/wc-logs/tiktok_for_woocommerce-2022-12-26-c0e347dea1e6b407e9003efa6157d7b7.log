@@ -1,0 +1,45 @@
+2022-12-26T20:33:27+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_63aa05174a95ahttplocalhostwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+ ajax: DOING_AJAX
+2022-12-26T20:33:32+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5001 milliseconds with 0 bytes received
+
+2022-12-26T20:33:37+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5001 milliseconds with 0 bytes received
+
+2022-12-26T20:33:42+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5002 milliseconds with 0 bytes received
+
+2022-12-26T20:33:43+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 20221226203341401374760A1DE726EEEE,20221226203341401374760A1DE726EEEE
+x-tt-trace-host: 012c15656a3934c93758eaef16d25328a844067b83c46f570979fb94b8dea36964e425da0e7b130faf62eef7d9f4b5e23649241b635f03ac5489a29f9aadcfcb6ca8c402ea8859990e5b30573838c48480773a445d12c91c7d21ee3e3411f99d8354db45e2f3c3bb4afa696f85d7658236
+Content-Encoding: gzip
+Content-Length: 209
+X-Origin-Response-Time: 301,23.61.205.37
+X-Akamai-Request-ID: b35eefa8.c4238ccb
+Date: Mon, 26 Dec 2022 20:33:43 GMT
+X-Cache: TCP_MISS from a23-73-216-45.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-61-205-37.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=318, origin; dur=301
+Server-Timing: inner; dur=293
+X-Parent-Response-Time: 615,23.73.216.45
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/","app_secret":"a712fd5340d840baf4d488d6fba26a8619fb5993","external_data_key":"d7d7cfaa-72b2-4b85-8ccd-b9999e2b78c8","app_id":"7181558199533699073"}}
+
+2022-12-26T20:42:31+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-26T20:42:31+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-26T20:42:33+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-26T20:42:33+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-26T20:42:43+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-26T20:43:09+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
