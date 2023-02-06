@@ -1,4 +1,4 @@
-# clevertap-php-integration-wordpress
+# Clevertap Php Integration Wordpress
 
 <Things can be implemented by referring to doc>
 SDK 
