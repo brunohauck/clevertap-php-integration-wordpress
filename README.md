@@ -8,7 +8,7 @@ Open the project in Visual Studio code or any other developer platform.
 
 Open the theme folder as the image
 
-
+![alt text](https://github.com/brunohauck/clevertap-php-integration-wordpress/doc_images/image.jpg?raw=true)
 
 Now go to the header.php file and add the latest version of the Web SDK
 ```
