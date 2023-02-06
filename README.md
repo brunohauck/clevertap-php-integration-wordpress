@@ -11,7 +11,7 @@ Open the theme folder as the image
 
 
 Now go to the header.php file and add the latest version of the Web SDK
-
+```
    <script type="text/javascript">
     var clevertap = {event:[], profile:[], account:[], region: 'YOUR-REGION EX -> US1', onUserLogin:[], notifications:[], privacy:[]};
 // replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
@@ -28,7 +28,8 @@ Now go to the header.php file and add the latest version of the Web SDK
      })();
     
    </script>
-
+```
+   
 Now go to the dashboard in -> segments -> find people -> don't add any criteria and click in the view details 
 
 
@@ -50,7 +51,7 @@ In the example below we add in the footer of the page to register the page visit
 Remember that for Web SDK integration we don't have app launch event so is recommended that you add an event to main page to register the Web App launch 
 
 In this case we are going to edit the footer.php
-
+```
 <?php wp_footer(); ?>
 <script type="text/javascript">
 
@@ -123,9 +124,6 @@ Follow the steps
 1 - Go to firebase console -> https://console.firebase.google.com
 
 2 - Create a new project or use an existing one
-
-
-
 
 
 Now you have to add a Web Project 
