@@ -1,6 +1,9 @@
 # Clevertap Php Integration Wordpress
 
 <Things can be implemented by referring to doc>
+
+TEMP DOCUMENT 
+
 SDK 
 First, you need to install a theme and if you are going to use Woocommerce you need the plugin
 
@@ -8,7 +11,7 @@ Open the project in Visual Studio code or any other developer platform.
 
 Open the theme folder as the image
 
-![alt text](https://github.com/brunohauck/clevertap-php-integration-wordpress/doc_images/image.jpg?raw=true)
+![alt text](https://github.com/brunohauck/clevertap-php-integration-wordpress/docs/imgs/image1.png?raw=true)
 
 Now go to the header.php file and add the latest version of the Web SDK
 ```
