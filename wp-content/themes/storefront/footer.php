@@ -97,6 +97,9 @@
 	});*/
 
 
+
+	
+
 	clevertap.event.push("Charged", {
     "Amount": 300,
     "Payment mode": "Credit Card",
