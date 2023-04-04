@@ -34,6 +34,8 @@
 	         s.parentNode.insertBefore(wzrk, s);
 	  })();
 	  
+
+    /* Clevertap docs */
 	</script>
 
 <script type="module">
